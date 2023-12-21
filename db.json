@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "user_id": "1",
+      "pan_number": "AB3CDEFGH1",
+      "name": "John Doe",
+      "profession": "Army Person",
+      "contact": {
+        "phone": "+1234567890",
+        "email": "asdf@gmail.com"
+      },
+      "unit": 7,
+      "last_update_date": "2023-12-15T09:23:17.603Z",
+      "notes": "some detail",
+      "security_info": {
+        "password": "_yN,L5kfgWjg!&]$;+EbN)jYK4Bbm*Fr}c#TTRtCNa&Pwwu)Qb2mpt%&N,E-hAMZ@x/aMqhU:Cfpnv",
+        "last_login_date": "2023-12-13T12:36:45.789Z",
+        "session_tokens": [
+          "_yN,L5kfgWjg!&]$;+EbN)jYK4Bbm*Fr}c#TTRtCNa&Pwwu)Qb2mpt%&N,E-hAMZ@x/aMqhU:Cfpnv"
+        ]
+      },
+      "financial_details": {
+        "2024": {
+          "refundable_amount": 748,
+          "fee": 3198,
+          "is_paid": true,
+          "referral_info": {
+            "referred_by": "Mukesh",
+            "profession": "Army Person"
+          }
+        },
+        "2023": {
+          "refundable_amount": 655,
+          "fee": 645,
+          "is_paid": false
+        }
+      }
+    }
+  ],
+  "indexed_financial_details": [
+    {
+      "year": 2024,
+      "user_ids": ["1"]
+    },
+    {
+      "year": 2023,
+      "user_ids": ["1", "2"]
+    }
+  ]
+}
